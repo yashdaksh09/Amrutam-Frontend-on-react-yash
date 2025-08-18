@@ -1,0 +1,36 @@
+.NavList li{
+    list-style: none;
+   
+    margin-left: 20px ;
+    font-size: 20px;
+    
+}
+.NavList a{
+    text-decoration: none;
+     color: #474747;
+}
+.NavList ul{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+/* Home */
+/* Hero Section */
+
+.heroJoinButton{
+    background-color: #3A643C;
+    height: 56px;  
+    width: 262px;
+    border-radius: 12px;
+    padding-top: 10px;
+    padding-right: 56px;
+    padding-left: 56px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.row{
+    padding: 4rem;
+}

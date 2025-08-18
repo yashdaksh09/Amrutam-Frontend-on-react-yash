@@ -1,0 +1,19 @@
+.StepCards{
+    width: 550px;
+    height: 120xp;
+    text-align: start;
+    border: 1px solid #33643F80;
+    border-radius: 8px;
+    padding: 20px 25px;
+    margin-bottom: 25px;
+    transition: 0,3sS;
+}
+
+.btn{
+    margin-right: 25px;
+    width: 180px;
+    height: 48px;
+    padding: 12px 16px 12px 16px;
+    font-size: 16px;
+    font-weight: 400px;
+}
