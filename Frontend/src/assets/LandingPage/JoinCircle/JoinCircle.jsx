@@ -62,6 +62,23 @@ function JoinCircle() {
             <button className="btn btn active" data-bs-toggle="button" aria-pressed="true">Payment withdrawal</button>
             <button className="btn btn active" data-bs-toggle="button" aria-pressed="true">Schedule</button>
         </div>
+        <div className="row">
+          <div className="col-12 col-md-4">
+            <h5 className="mb-4" style={{color: "#3A643C", fontSize: "24px", fontWeight: "700"}}>Value Your Practice</h5>
+            <img src="/images/ValueYourPractice.png" style={{height: "435px", width: "216px", marginBottom: "25px"}} alt="Value Your Practice"/>
+          </div>
+          <div className="col-12 col-md-4">
+            <img src="/images/Today'sHealingJourney.png" style={{height: "435px", width: "216px"}} alt="Value Your Practice"/>
+            <h5 className="mt-4 mb-5" style={{color: "#3A643C", fontSize: "24px", fontWeight: "700"}}>Today's Healing Journey</h5>
+          </div>
+        <div className="col-12 col-md-4">
+            <h5 className="mb-4" style={{color: "#3A643C", fontSize: "24px", fontWeight: "700"}}>Consultation Details</h5>
+            <img src="/images/ConsultationDetails.png" style={{height: "435px", width: "216px"}} alt="Value Your Practice"/>
+          </div>
+        </div>
+        <div style={{display: "flex", justifyContent: "center"}}>
+          <button  className="btn btn-success" style={{backgroundColor: "#3A643C"}}>Join Now</button>
+        </div>
       </div>
     </div>
   );

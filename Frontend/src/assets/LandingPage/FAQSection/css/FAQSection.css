@@ -1,0 +1,20 @@
+.accordion-button::after {
+    display: none !important;
+}
+.accordion-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF7E2;
+  
+    border-bottom: 1px solid black;
+    
+}
+
+
+.accordion-body{
+    background-color: #FFF7E2;
+}
+.accordion-button::after {
+    display: none !important;
+}
