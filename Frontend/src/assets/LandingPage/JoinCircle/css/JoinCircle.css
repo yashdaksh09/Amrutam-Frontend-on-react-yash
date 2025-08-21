@@ -1,19 +1,21 @@
-.StepCards{
-    width: 550px;
-    height: 120xp;
+/* JoinCircle.css */
+.StepCards {
+    width: 100%; /* Changed to 100% to fill parent */
+    max-width: 550px; /* Kept max-width to control size on large screens */
+    height: auto; /* Changed to auto to adjust to content */
     text-align: start;
     border: 1px solid #33643F80;
     border-radius: 8px;
     padding: 20px 25px;
     margin-bottom: 25px;
-    transition: 0,3sS;
+    transition: 0.3s; /* Corrected '0,3sS' to '0.3s' */
 }
 
-.btn{
-    margin-right: 25px;
-    width: 180px;
+.btn {
+    margin-right: 0; /* Removed fixed margin */
+    width: auto; /* Let content and padding decide width */
     height: 48px;
-    padding: 12px 16px 12px 16px;
+    padding: 12px 16px; /* Reduced redundant padding */
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400; /* Corrected '400px' to '400' */
 }

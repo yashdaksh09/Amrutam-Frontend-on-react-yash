@@ -1,0 +1,37 @@
+/* AppDownloadSection.css */
+
+.footer-links a {
+    text-decoration: none;
+    color: #4C4C4C;
+    font-size: 20px;
+}
+
+.footer-links li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+/* AMRUTAMLOGO */
+.AMRUTAMLOGO {
+    max-width: 80%; 
+    height: auto;
+    
+}
+
+
+
+.social-media-icons {
+    height: 36px;
+    width: 36px;
+    background-color: #33643F;
+    border-radius: 100px;
+    margin: 5px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; /* Center icon vertically */
+}
+
+.social-links {
+    text-decoration: none;
+    color: #FFF8E6;
+}

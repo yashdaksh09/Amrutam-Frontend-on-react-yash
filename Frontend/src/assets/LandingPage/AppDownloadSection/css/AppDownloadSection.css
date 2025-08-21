@@ -2,12 +2,12 @@
 
 .app-download-section {
     background-color: #FFEDBF;
-    padding: 20px 0; /* ऊपर और नीचे पैडिंग */
-    overflow: hidden; /* छिपी हुई सामग्री को संभालें */
+    padding: 20px 0;
+    overflow: hidden;
 }
 
 .app-section-row {
-    align-items: center; /* row के अंदर आइटम्स को वर्टिकली सेंटर में अलाइन करें */
+    align-items: center;
 }
 
 .section-title {
@@ -25,80 +25,55 @@
     text-align: start;
 }
 
-
-
-
-
 .app-buttons {
     margin-top: 30px;
 }
 
+.responsive-image-icon {
+    width: 100%;
+    max-width: 279.35px;
+    height: auto;
+}
+
 .app-store-btn {
-    width: 180px; /* ऐप स्टोर बटन की चौड़ाई */
-    height: auto; /* आस्पेक्ट रेश्यो बनाए रखें */
-    margin-right: 15px; /* बटनों के बीच स्पेसिंग */
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    margin-right: 15px;
     transition: transform 0.2s ease-in-out;
 }
 
 .app-store-btn:hover {
-    transform: translateY(-3px); /* होवर इफेक्ट */
+    transform: translateY(-3px);
 }
 
 .phone-image-col {
-    padding-top: 30px; /* मोबाइल पर ऊपर से पैडिंग */
-    padding-bottom: 30px; /* मोबाइल पर नीचे से पैडिंग */
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .phone-image {
-    height: 500px;
-    
-    margin: 0 auto; /* सेंटर में अलाइन करें */
-    margin-top: 0px; /* इमेज को थोड़ा ऊपर धकेलें */
-    transform: translateY(-20px); /* इमेज को थोड़ा ऊपर धकेलें */
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 0 auto;
 }
 
 /* Responsive adjustments using media queries */
 
-/* Medium devices (tablets, 768px and up) */
+
 @media (min-width: 768px) {
     .section-title {
-        font-size: 40px; /* डेस्कटॉप पर बड़ा शीर्षक */
+        font-size: 40px;
     }
 
     .section-description {
         font-size: 22px;
     }
-
- 
-    .app-buttons {
-        justify-content: flex-start; /* डेस्कटॉप पर बाईं ओर अलाइन करें */
-    }
-
-    .phone-image {
-        max-width: 550px; /* डेस्कटॉप पर फ़ोन इमेज की अधिकतम चौड़ाई */
-        margin-left: 50px; /* बाईं ओर से मार्जिन */
-        margin-right: 0;
-        transform: translateY(-50px); /* डेस्कटॉप पर इमेज को थोड़ा ऊपर धकेलें */
-    }
-
-    .phone-image-col {
-        padding-top: 0;
-        padding-bottom: 0;
-        display: flex; /* Flexbox for vertical alignment */
-        justify-content: center; /* Horizontal alignment */
-        align-items: center; /* Vertical alignment */
-    }
 }
 
-/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .section-title {
-        font-size: 40px; /* और भी बड़ा शीर्षक */
-    }
-
-    .phone-image {
-        max-width: 600px; /* बड़े डेस्कटॉप पर फ़ोन इमेज */
-        margin-left: 50px;
-        transform: translateY(-50px);
+        font-size: 40px;
     }
 }

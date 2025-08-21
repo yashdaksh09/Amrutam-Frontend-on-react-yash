@@ -8,6 +8,7 @@
 .NavList a{
     text-decoration: none;
      color: #474747;
+     font: Poppins;
 }
 .NavList ul{
     display: flex;
