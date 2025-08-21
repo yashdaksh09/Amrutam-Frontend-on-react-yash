@@ -1,6 +1,6 @@
 import React from 'react'
 
-function NavBar() {
+function Navbar() {
     return (
         <div style={{ backgroundColor: "#373636", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", padding: "10px 20px", minHeight: "67px" }}>
             <p style={{ fontSize: "20px", color: "#D9D9D9", margin: "10px 0", textAlign: "center", flexGrow: 1 }}>Register Yourself As An Amrutam Doctor</p>
@@ -12,4 +12,4 @@ function NavBar() {
     )
 }
 
-export default NavBar;
+export default Navbar;

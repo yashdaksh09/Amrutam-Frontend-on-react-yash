@@ -1,4 +1,4 @@
-import NavBar from './assets/LandingPage/Navbar';
+import Navbar from "./assets/LandingPage/NavBar";
 import HomePage from "./assets/LandingPage/Home/HomePage"
 import Featured from "./assets/LandingPage/Featured/Featured";
 import ChooseDoctorSection from "./assets/LandingPage/ChooseDoctor/ChooseDoctorSection";
@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-    <NavBar/>
+    <Navbar/>
     <HomePage/>
     <Featured/>
     <ChooseDoctorSection/>
